@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+        <link rel="icon" href="data:;base64,=">
+        <meta charset = "UTF-8">
+        <link rel = "stylesheet" href = "todo.css">
+        <script src = "todo.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> toDo </title>
+    </head>
+
+    <body>
+        <div id = "container">
+            <div>
+                <h1>todos</h1>
+            </div>
+            <div>
+                <input type = "text" 
+                id = "input" 
+                placeholder = "Name: ToDo,ToDo2,..." 
+                onkeydown="if (event.keyCode == 13)
+                            document.getElementById('button').click()">
+                <button id = "button" hidden onclick = "addTask()" >
+            </div>
+            <div id = "taskBox"></div>
+        </div>
+    </body>
+
+</html>

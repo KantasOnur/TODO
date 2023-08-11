@@ -1,0 +1,66 @@
+body{
+    background-color: #E3E9F0;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-height: fit-content;
+}
+
+
+h1{
+    font-family: 'Arvo';
+    color: #9098AD;
+    font-size: 8rem;
+}
+
+#input{
+    border: none;
+    font-family: 'Arvo';
+    font-size: large;
+    padding: 1rem 0.5rem;
+    display: block;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#name{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.tasks{
+    align-items: center;
+    font-family: 'Arvo';
+    border: transparent;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 1rem 0.5rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    min-width: 60px;
+}
+
+#clickTask{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: 0.5s;
+    
+}
+#clickTask:hover{
+    background-color: rgba(233, 230, 230, 0.766);
+    border-radius: 2px;
+    width: auto;
+
+}
+
+#repBox{
+    color: rgba(0, 0, 0, 0.403);
+    margin-left: 10px;
+}
+
